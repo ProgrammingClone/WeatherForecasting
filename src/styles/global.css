@@ -1,0 +1,10 @@
+@import "tailwindcss";
+
+@theme {
+  --color-aqua: #90e2ee;
+  --color-soft: #a1b4cf;
+}
+
+body {
+  background: radial-gradient(ellipse 65% 45% at 90% 0%, #21476c 0, transparent 75%), radial-gradient(ellipse 70% 40% at 10% 60%, #123359 0, transparent 80%), #08162b;
+}
