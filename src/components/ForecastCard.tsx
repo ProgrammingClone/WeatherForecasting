@@ -5,7 +5,7 @@ export default function ForecastCard({ days, unit }: { days: DailyForecast[]; un
   return (
     <section className="mt-10">
       <div className="mb-4 flex items-center justify-between">
-        <h2 className="text-2xl font-bold">5-day forecast</h2>
+        <h2 className="text-2xl font-bold">5 day forecast</h2>
         <span className="text-sm text-slate-400">High / Low</span>
       </div>
 
